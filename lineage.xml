@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+          
+        <remote name="academy"
+                fetch="https://github.com/Lumi-Academy"
+                revision="lineage-19.1" />
+
+        <remote name="hoanglong"
+                fetch="https://github.com/HoangLong-Lumi" />
+
+        <!-- Sync trees -->
+        <project path="device/vsmart/casuarina" name="android_device_vsmart_casuarina" remote="academy" />
+        <project path="vendor/vsmart/casuarina" name="android_vendor_vsmart_casuarina" remote="academy" />
+        <project path="kernel/vsmart/casuarina" name="kernel_msm-4.9" remote="hoanglong" />
+
+</manifest>
