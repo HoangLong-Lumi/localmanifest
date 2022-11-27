@@ -6,7 +6,8 @@
                 revision="lineage-19.1" />
 
         <remote name="hoanglong"
-                fetch="https://github.com/HoangLong-Lumi" />
+                fetch="https://github.com/HoangLong-Lumi"
+                revision="a11/master" />
 
         <!-- Sync trees -->
         <project path="device/vsmart/casuarina" name="android_device_vsmart_casuarina" remote="academy" />
