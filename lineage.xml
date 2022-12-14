@@ -3,15 +3,16 @@
           
         <remote name="academy"
                 fetch="https://github.com/Lumi-Academy"
-                revision="lineage-19.1" />
+                revision="tiramisu" />
 
         <remote name="hoanglong"
-                fetch="https://github.com/HoangLong-Lumi"
-                revision="a11/master" />
+                fetch="https://github.com/long266"
+                revision="s" />
 
         <!-- Sync trees -->
-        <project path="device/vsmart/casuarina" name="android_device_vsmart_casuarina" remote="academy" />
-        <project path="vendor/vsmart/casuarina" name="android_vendor_vsmart_casuarina" remote="academy" />
-        <project path="kernel/vsmart/casuarina" name="kernel_msm-4.9" remote="hoanglong" />
+        <project path="device/samsung/a32" name="device_samsung_a32" remote="academy" />
+        <project path="device/samsung/buer_vndr" name="device_samsung_buer_vndr" remote="academy" />
+        <project path="device/samsung/mt6768-common" name="device_samsung_mt6768-common" remote="academy" />
+        <project path="kernel/samsung/a32" name="android_kernel_samsung_a32" remote="hoanglong" />
 
 </manifest>
