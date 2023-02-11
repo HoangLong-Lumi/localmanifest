@@ -40,6 +40,9 @@
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" groups="qcom" revision="lineage-20.0-caf-sm8150" remote="lineage" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" groups="qcom,msmnile" revision="lineage-20.0-caf-sm8150" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="hardware_qcom-caf_vr" revision="lineage-20.0" remote="githubgl" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" revision="lineage-20.0" remote="lineage" groups="qcom,qssi" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" revision="lineage-20.0" remote="lineage" groups="qcom,qssi" />
+  <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" revision="lineage-20.0" remote="lineage" groups="qcom" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" revision="lineage-20.0" remote="githubgl" />
